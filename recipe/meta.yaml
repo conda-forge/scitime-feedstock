@@ -17,7 +17,7 @@ requirements:
   host:
     - python >=3.6
     - setuptools >=3.3
-    - pip==20.3.4
+    - pip ==20.3.4
   run:
     - python >=3.6
     - psutil
