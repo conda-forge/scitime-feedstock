@@ -9,6 +9,7 @@ jobs:
   timeoutInMinutes: 240
   strategy:
     maxParallel: 8
+    python.version: '3.7'
     matrix:
       linux_:
         CONFIG: linux_
