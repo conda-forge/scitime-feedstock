@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/nathan-toubiana/scitime/archive/v{{ version }}.tar.gz
+  url: https://github.com/scitime/scitime/archive/v{{ version }}.tar.gz
   sha256: 32319c106f1c7c026acd33d78f138cef2016b44cec20995ab5127edc6bb8f969
 
 build:
@@ -30,7 +30,7 @@ test:
     - scitime
 
 about:
-  home: https://github.com/nathan-toubiana/scitime
+  home: https://github.com/scitime/scitime
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -38,7 +38,7 @@ about:
 
   description: |
     Training time estimation for scikit-learn algorithms.
-  dev_url: https://github.com/nathan-toubiana/scitime
+  dev_url: https://github.com/scitime/scitime
 
 extra:
   recipe-maintainers:
