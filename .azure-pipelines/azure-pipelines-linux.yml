@@ -8,9 +8,7 @@ jobs:
     vmImage: ubuntu-16.04
   timeoutInMinutes: 240
   strategy:
-    python.version: '3.7'
     maxParallel: 8
-    python.version: '3.7'
     matrix:
       linux_:
         CONFIG: linux_
