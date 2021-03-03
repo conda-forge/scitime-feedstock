@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://github.com/scitime/scitime/archive/v{{ version }}.tar.gz
-  sha256: e846f360cd185902cc7b81a4f88921ec522d8c891bf04df316d7878aa4e9e504
+  sha256: 197b176345cf38d89b91123965769cdf65fd6c86931305ec53960efdbde3f9be
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
