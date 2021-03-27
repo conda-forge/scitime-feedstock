@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/scitime/scitime/archive/v{{ version }}.tar.gz
-  sha256: 197b176345cf38d89b91123965769cdf65fd6c86931305ec53960efdbde3f9be
+  sha256: f47ddc9d5a47bef6021a227d8fed06da689cf0d2d45f0419b1cc15c14551fea2
 
 build:
   noarch: python
